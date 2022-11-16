@@ -1,0 +1,60 @@
+header {
+  background-color: #59d4ff;
+  font-size: 54pt;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.content-4 {
+  width: 600px;
+  height: 600px;
+  background-color: #9debff;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 12cm;
+  text-align: center;
+}
+
+.about {
+  font-size: 24pt;
+  margin-bottom: -4mm;
+  margin-top: 2mm;
+}
+
+.branding {
+  font-size: 12pt;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logocece {
+  width: 250px;
+  height: 250px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    font-size: 44pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 32pt;
+  }
+}
