@@ -235,7 +235,7 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .main-content {
     grid-template-columns: 1fr;
   }
@@ -250,5 +250,38 @@ p {
 @media screen and (max-width: 600px) {
   header {
     font-size: 32pt;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #hero {
+    display: flex;
+    flex-direction: column;
+  }
+  #hero .left-side {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  #hero .left-side p {
+    font-size: 14pt;
+  }
+  #hero .left-side h1 {
+    font-size: 26pt;
+  }
+  #hero .right-side {
+    padding-top: 50px;
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #hero .right-side .image-box {
+    width: 400px;
+    height: 400px;
+  }
+  #hero .right-side {
+    padding-left: 55px;
   }
 }
